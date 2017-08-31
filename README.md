@@ -1,4 +1,4 @@
-# CNN-BLSTM-CTC
+# A Hybrid Model for End to End Online Handwriting Recognition (CNN-BLSTM-CTC)
 ---
 A Tensorflow implementation of a CNN-BLSTM-CTC architecture used for *Online Handwriting Recognition*. This work is accepted under the title __"A Hybrid Model for End to End Online Handwriting Recognition"__ in the *14th IAPR International Conference on Document Analysis and Recognition, 2017*.
 
