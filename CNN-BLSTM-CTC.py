@@ -28,7 +28,7 @@ filenames=["Data/ICBOHR-04_Gist_feat","Data/ICBOHR-04_Gist_feat"]
 logfilename="Logs/log_"+str(time.strftime("%d-%m-%y_%H-%M",time.gmtime()))+".txt"
 [inpx,inp_sparse_y,inpseqlen,trainbatch,nbtrain],[test_inpx,test_inp_sparse_y,test_inpseqlen,testbatch,nbtest],chars,nctr,ncts=loaddata(filenames,batchsize,"CNN",cpath)
 
-#Modify sequence lengths due to effect of max pooling
+#Modify sequence lengths due to effect of max pooling 
 
 for l in range(nblayers):
     for i in range(len(inpseqlen)):
