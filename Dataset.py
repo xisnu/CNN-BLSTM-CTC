@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Nov 17 12:52:49 2016
 
-@author: parthosarothi
-"""
 import csv
 import numpy as np
 
