@@ -14,8 +14,7 @@ Requirements
 - Install __*h5py*__ using *pip*.
 - Run *CNN-BLSTM-CTC.py* with argument *New*. This will create a network with randomly initialized weight variables.
 ## Network Description
-The network consists of CNN layers followed by BLSTM layers. The loss is computed using CTC loss model.
-![Network Architecture](https://github.com/xisnu/CNN-BLSTM-CTC/blob/master/Images/hybrid.jpg)
+The network consists of CNN layers followed by BLSTM layers. The loss is computed using CTC loss model. Follow the [diagram](https://github.com/xisnu/CNN-BLSTM-CTC/blob/master/Images/hybrid.jpg)
 ## Dataset Description
 For demonstration of model a simple dataset __ICBOHR-04_Gist_feat__ is given in HDF5 format. This contains extracted features of only 540 samples of online handwritten Bangla words. No separate test file is given. Executing the same model for training with this dataset results a __91.5034%__ accuracy measured as per edit distance after 500 epochs. 
 
