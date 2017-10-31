@@ -3,6 +3,6 @@ nb_filters,16 24 32
 nb_hidden,32
 lr,0.001
 filterwidth,5
-nb_dense,32
+nb_dense,32 
 conv_stride,2 2 2
 pool_stride,2 2 2
