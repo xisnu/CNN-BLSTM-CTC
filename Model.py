@@ -298,9 +298,9 @@ batchsize=512
 #To start a fresh training set runmode="New", for prediction and resume training set it to "Load"
 runmode="New"
 if(runmode=="Load"):
-    generate=True
-else:
     generate=False
+else:
+    generate=True
 
 
 [x_train,x_test],nb_classes,[train_seq_len,test_seq_len],[train_y,test_y],max_target_length,max_seq_length,char_int,transcription_length=load_data(files[0],files[1],batchsize,"nopad",generate)
