@@ -35,7 +35,7 @@ def findDistinctCharacters(targets):
     '''
     Reads all targets (targets) and splits them to extract individual characters
     Creates an array of character-integer map (char_int)
-    Finds the maximum target length
+    Finds the maximum target length 
     Finds number of distinct characters (nbclasses)
     :param targets:
     :return char_int,max_target_length,nbclasses:
