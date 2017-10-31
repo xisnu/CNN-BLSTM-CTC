@@ -295,6 +295,7 @@ path="Data"
 files=[path+"/Train_feat_Graves",path+"/Test_feat_Graves"]
 weightfile="Weights"
 batchsize=512
+#To start a fresh training set runmode="New", for prediction and resume training set it to "Load"
 runmode="New"
 if(runmode=="Load"):
     generate=True
@@ -318,4 +319,4 @@ weightfile_best=weightfile+"/Best/best"
 weightfiles=[weightfile_last,weightfile_best]
 
 model.trainNetwork(5,batchsize,x,y,seqlen,max_target_length,transcription_length,weightfiles,runmode)
-model.compare_prediction([x_test,test_y],test_seq_len,weightfile_best,dbfile,max_target_length)
+model.compare_prediction([x_test,test_y],test_seq_len,weightfile_best,dbfile,max_target_length)#A new file Predicted will show predictions from network
