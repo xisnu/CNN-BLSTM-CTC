@@ -1,6 +1,6 @@
-# A Hybrid Model for End to End Online Handwriting Recognition (CNN-BLSTM-CTC)
+# A Hybrid Deep Architecture for Robust Recognition of Text Lines of Degraded Printed Documents
 ---
-A Tensorflow implementation of a CNN-BLSTM-CTC architecture used for *Online Handwriting Recognition*. This work is accepted under the title __"A Hybrid Model for End to End Online Handwriting Recognition"__ in the *14th IAPR International Conference on Document Analysis and Recognition, 2017*.
+A Tensorflow implementation of a CNN-BLSTM-CTC architecture used for *Degraded OCR Recognition*. This work is submitted under the title __"A Hybrid Deep Architecture for Robust Recognition of Text Lines of Degraded Printed Documents"__ in the *124th International Conference on Pattern Recognition*.
 
 Requirements
 ---
